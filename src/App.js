@@ -5,13 +5,15 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Password from "./Pages/Password";
 import CreateAccount from "./Pages/CreateAccount";
+import Tos from "./Pages/Tos";
 function App() {
   return (
     <div>
       {/* <Home /> */}
       {/* <Login /> */}
       {/* <Password /> */}
-      <CreateAccount />
+      {/* <CreateAccount /> */}
+      <Tos />
     </div>
   );
 }
