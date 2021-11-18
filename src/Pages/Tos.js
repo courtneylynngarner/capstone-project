@@ -14,9 +14,9 @@ const Tos = () => {
           alt="ilia-products"
         />
       </div>
-      <div className="tos-container">
-        <p className="tos-header">Terms of service</p>
-        <p className="tos-update">Last Updated: July 13, 2020</p>
+      <div className="terms-container">
+        <p className="title-header">Terms of service</p>
+        <p className="tos-privacy-update">Last Updated: July 13, 2020</p>
         <p className="tos-notice">
           IMPORTANT NOTICE: THESE TERMS OF SERVICE CONTAIN A BINDING ARBITRATION
           PROVISION AND CLASS ACTION WAIVER. IT AFFECTS YOUR LEGAL RIGHTS AS

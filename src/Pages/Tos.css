@@ -7,10 +7,10 @@
   width: 400px;
   height: 250px;
 }
-.tos-container {
+.terms-container {
   padding: 0 16px;
 }
-.tos-header {
+.title-header {
   font-family: "IBM Plex Sans", sans-serif;
   font-family: "Nanum Myeongjo", serif;
   font-size: 31px;
@@ -19,7 +19,7 @@
   padding: 32px 20px 10px 0;
 }
 
-.tos-update {
+.tos-privacy-update {
   font-size: 14px;
   font-weight: 500;
 }
