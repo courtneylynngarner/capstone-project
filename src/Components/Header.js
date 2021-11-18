@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import checkout from "../Assets/checkout.svg";
+
 import "./Header.css";
 
 const Header = () => {
   return (
     <div>
-      <div className="header-whitespace"></div>
       <div className="promotion">
         <p className="promotion-text">
           PICK A FREE MINI ON ORDERS $125+ AT CHECKOUT. <u>SHOP NOW</u>
@@ -19,14 +20,10 @@ const Header = () => {
           </div>
           <div className="log-in">
             <p className="log-in-text">LOG IN</p>
-            <div className="purse-container">
-              <img
-                src="./assets/checkout.svg"
-                className="filter-default-color purse-icon"
-                alt=""
-              />
-              <span className="checkout-items">0</span>
-            </div>
+          </div>
+          <div className="purse-container">
+            <img src={checkout} className="purse-icon" alt="" />
+            <div className="checkout-items">0</div>
           </div>
         </div>
         <div className="top-links-container">

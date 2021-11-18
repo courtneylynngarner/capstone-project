@@ -5,12 +5,9 @@
   flex-direction: column;
 }
 .footer-1-box {
-  /* display: flex;
-  flex-direction: column; */
   height: 212px;
   background-color: #f6f4ef;
   opacity: 80%;
-  border: 2px solid violet;
 }
 
 .footer-1-large {
@@ -30,26 +27,25 @@
 
 .footer-2-box {
   width: 100vw;
-  height: 300px;
-  opacity: 80%;
+  height: 270px;
   padding: 48px 20px;
+  opacity: 90%;
   background-color: #f3eee9;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
 }
 
 .sign-up-header {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   padding-bottom: 3px;
-  z-index: 20;
 }
 
 .sign-up-content {
   font-size: 13px;
   line-height: 23px;
   padding-bottom: 20px;
-  border: 2px solid pink;
 }
 
 .email {
@@ -69,14 +65,92 @@
   border-left: hidden;
   border-bottom: 0.5px solid #cccccc;
   background-color: #f3eee9;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 600;
   color: #5e5047;
-  height: 38px;
+  height: 35px;
 }
 
 .sm-icons {
-  height: 16px;
-  width: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+  width: 300px;
+  padding: 35px 0 0 20px;
+  background-color: #f3eee9;
   color: #5e5047;
+}
+
+.instagram,
+.facebook,
+.youtube,
+.pinterest,
+.twitter {
+  height: 18px;
+  width: 18px;
+
+  background-color: #f3eee9;
+  color: #5e5047;
+}
+
+.tiktok {
+  height: 28px;
+  width: 28px;
+}
+
+.footer-3-box {
+  height: 300px;
+  padding: 48px 20px;
+  background-color: #eee5e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 95%;
+}
+.member {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #8b857d;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.one-percent-container {
+  width: 200px;
+  height: 79px;
+}
+
+.one-percent {
+  width: 178px;
+  height: 69px;
+  padding-left: 30px;
+}
+
+.copyright {
+  height: 50px;
+  width: auto;
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  /* border: 2px solid pink; */
+}
+
+.footer-end {
+  /* border: 2px solid gold; */
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0 5px 0 5px;
+}
+
+.privacy,
+.terms,
+.ca-privacy,
+.accessibility {
+  padding: 0 5px 0 5px;
 }
