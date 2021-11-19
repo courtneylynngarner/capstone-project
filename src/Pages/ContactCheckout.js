@@ -51,7 +51,7 @@ const ContactCheckout = () => {
           <button className="continue-to-shipping">CONTINUE TO SHIPPING</button>
           <button className="return-to-cart">Return to cart</button>
         </form>
-        <div className="copyright">
+        <div className="checkout-copyright">
           <span>&#169;</span>
           2021 ILIA Beauty All rights reserved
         </div>
