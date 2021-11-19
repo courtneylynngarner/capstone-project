@@ -7,7 +7,7 @@ const CreateAccount = () => {
   return (
     <div>
       <Header />
-      <div className="create-account">
+      <div className="create-account-container">
         <p className="account-heading">Create Account</p>
         <form action="" className="create-account-form">
           <input type="text" className="first-name" placeholder="First Name" />

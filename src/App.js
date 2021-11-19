@@ -7,6 +7,7 @@ import Password from "./Pages/Password";
 import CreateAccount from "./Pages/CreateAccount";
 import Tos from "./Pages/Tos";
 import Privacy from "./Pages/Privacy";
+import ContactCheckout from "./Pages/ContactCheckout";
 function App() {
   return (
     <div>
@@ -15,7 +16,8 @@ function App() {
       {/* <Password /> */}
       {/* <CreateAccount /> */}
       {/* <Tos /> */}
-      <Privacy />
+      {/* <Privacy /> */}
+      <ContactCheckout />
     </div>
   );
 }
